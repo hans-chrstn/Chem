@@ -33,9 +33,9 @@ class PeriodicTable (QtWidgets.QWidget):
         layout = QtWidgets.QGridLayout(self)
         self.setLayout(layout)
         elements = [
-            ("H", "Hydrogen", 1.008, 0, 1, 0, 1, 0, 0),
-            ("Li", "Lithium", 7, +1, 3, 4, 3, 1, 0),
-            ("Be", "Beryllium", 9, 0, 4, 5, 4, 1, 1),
+            ("H", "Hydrogen", 1.008, "+1", 1, 0, 1, 0, 0),
+            ("Li", "Lithium", 7, "+1", 3, 4, 3, 1, 0),
+            ("Be", "Beryllium", 9, "+2", 4, 5, 4, 1, 1),
         ]
 
         for symbol, name, mass, charge, protons, neutrons, electrons, row, col in elements:
