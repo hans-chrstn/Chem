@@ -21,11 +21,11 @@ def main():
     central_widget.setLayout(layout)
 
     # creates a label
-    label = QtWidgets.QLabel("Does this work???")
+    label = QtWidgets.QLabel("Periodic Table")
     layout.addChildWidget(label)
     
     # sets the title at the title bar of the app
-    main_window.setWindowTitle("Project???")
+    main_window.setWindowTitle("Chemistry")
 
     # resize
     main_window.resize(900, 900)
