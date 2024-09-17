@@ -13,6 +13,7 @@
      
   - **PySide**, [Link to docs](https://doc.qt.io/qtforpython-6/quickstart.html#)
   - **Python**, [Link to docs](https://www.python.org/doc/)
+  - **CSS2**, [Link to docs](https://www.w3.org/TR/CSS2/selector.html#q1)
 </details>
 <details>
   <summary>Prerequisites</summary>
