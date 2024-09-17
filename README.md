@@ -19,7 +19,7 @@
   
   - **Python 1.12.5 or greater**, [Link to installation page](https://www.python.org/downloads/)
   - **PySide6**, use ```pip install pyside6``` after installing python
-  - **Qt6**, Optional. Only needed if you need additional tools[Link to installation page](https://doc.qt.io/qt-6/qt-online-installation.html)
+  - **Qt6**, Optional. Only needed if you need additional tools. [Link to installation page](https://doc.qt.io/qt-6/qt-online-installation.html)
   - **Git**, [Link to installation page](https://git-scm.com/download/win)
   - **IDE like VSCode, VSCodium, or text editors like neovim**
 </details>
