@@ -20,6 +20,8 @@
   - **Python 1.12.5 or greater**
   - **PySide6**
   - **Qt6**
+  - **Git**
+  - **IDE like VSCode, VSCodium, or text editors like neovim**
 </details>
 
 > [!WARNING]
