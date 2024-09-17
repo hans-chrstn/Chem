@@ -40,5 +40,6 @@ class PeriodicTable (QtWidgets.QWidget):
 
         for symbol, name, mass, charge, protons, neutrons, electrons, row, col in elements:
             element_button = ElementButton(symbol, name, mass, charge, protons, neutrons, electrons)
+            element_button.setSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
             layout.addWidget(element_button, row, col)
             
