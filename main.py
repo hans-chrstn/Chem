@@ -1,10 +1,10 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QLabel
+from PySide6 import QtCore, QtWidgets, QtGui
 
 def main():
-    app = QApplication(sys.argv)
+    app = QtWidgets.QApplication([])
 
-    label = QLabel("Does this work or naw")
+    label = QtWidgets.QLabel("Does this work or naw")
     label.resize(200, 100)
     label.show()
 
